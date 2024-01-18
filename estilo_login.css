@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 50px;
+    background: #f2f2f2;
+    border-radius: 20px;
+}
+
+.card-login > h1{
+    color: #222222;
+    font-weight: 700;
+    size: 24px;
+    text-align: center;
+    line-height: 29.05px;
+    font-family: Inter;
+    font-style: bold;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfield > label{
+    padding: 0 2px;
+    position: relative;
+    top: 8px;
+    right: 25%;
+    z-index: 1;
+    background-color: #f2f2f2;
+
+}
+
+.textfield > input{
+    align-items: center;
+    width: 60%;
+    top: 8px;
+    padding: 15px;;
+    border-radius: 6px;
+    border: 2px solid #222222d5;
+    background-color: #f2f2f2;
+}
+
+input:focus{
+    outline:  0;
+}
+.text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+
+}
+
+.text > h6{
+    text-align: right;
+    color: #105F74;
+
+}
+
+.btn-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-login > button{
+    width: 60%;
+    padding: 15px 20px 15px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #105F74;  
+    color: white;
+    border: none; 
+}
+
+.btn-login > button>a{
+    color: white;
+}
+
+.btn-login>button>a:link, .btn-login>button>a:visited{
+    color: white;
+}
+
+.btn-registrar > a{
+    text-decoration: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #105F74;
+    text-align: center;
+}
+
+.btn-registrar > a:link, .btn-registrar > a:visited {
+    color: #105F74;
+}
+
+p{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+u{
+    color: #105F74;
+}
+
+@media screen and (max-width: 720px) {
+    .main-login{
+        height: 150vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

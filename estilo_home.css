@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222222;
+}
+
+.main-home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.left-home{
+    width: 25vw;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.container{
+    position: fixed;
+}
+
+.container >.icon> a:link, .container >.icon> a:visited{
+    color: #ffffff;
+}
+
+.logo{
+    margin-bottom: 60px;
+}
+
+.container > .icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.mid-home{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    background-color: #484848;
+    border-radius: 25px;
+    margin-bottom: 70px;
+}
+
+.mid-home > .search > .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.postagem{
+    padding: 8px;
+    border:#4C5C68 solid 0.5px;
+}
+
+.mid-home > .search > .input >input{
+    width: 90%;
+    left: 13.51px;
+    border-radius: 25px;
+    height: 43px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+
+.post{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-home>.meio>.post>.postagem>form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom-postagem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-postagem>input{
+    width: 98px;
+    height: 40px;
+    background-color:#1985A1;
+    border-radius: 10px;
+    border: none;
+}
+
+.mid-home >.meio> .post > .postagem > form > textarea{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+}
+
+.postagem{
+    margin-bottom: 20px;
+}
+
+.postagem1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: #484848 solid 0.5px;
+    margin-bottom: 20px;
+}
+
+.top-post{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+
+.top-post> h4{
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.meio-meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meio-baixo{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-post{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img1{
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-post{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-left{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.icon-right{
+    width: 20%;
+}
+
+.descricao{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#F2F2F2;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.right-home{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.perfil>p{
+    color: #FFFFFF;
+    font-family: Inter;
+}
+
+.sep{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sep>p{
+    color: #ffffff;
+    font-weight: normal;
+    font-family: Inter;
+}
+
+.mid-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.usuario1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right-mid > h3{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: Inter;
+}
+
+.separar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.separar> a:link, .separar>a:visited{
+    color:#22A2F2;
+    font-family: Inter;
+    font-weight: normal;
+}
+
+a:link{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 720px) {
+    .icon>a{
+        display: none;
+    }
+
+    .main-home{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .top-post>.img2{
+        width: 30%;
+        height: 30%;
+    }
+
+    .top-post>.top{
+        font-size: 60%;
+    }
+
+    .right-home{
+        display: none;
+    }
+
+    .meio-baixo{
+        width: 100%;
+        padding: 10px;
+    }
+
+
+}
